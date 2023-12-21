@@ -1,5 +1,5 @@
 
-> このページを開く [https://penguin-123456.github.io/microbit_game1/](https://penguin-123456.github.io/microbit_game1/)
+> このページを開く [https://penguin-123456.github.io/microbit_game1/](https://penguin-123456.github.io/Microbit_game1/)
 
 ## 拡張機能として使用
 
