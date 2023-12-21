@@ -1,0 +1,42 @@
+{
+    "name": "game",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "pxt-katakana": "github:mbitfun/pxt-katakana#v1.0.16",
+        "radio-broadcast": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.25",
+        "tag": "v6.0.25",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/f72136f1d01face3fc76caffa5343af1db369a37",
+        "target": "6.0.25",
+        "pxt": "9.0.15",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 0,
+                    "whitelist": 1,
+                    "security_level": "SECURITY_MODE_ENCRYPTION_NO_MITM"
+                }
+            }
+        }
+    }
+}
